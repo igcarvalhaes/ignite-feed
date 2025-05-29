@@ -1,16 +1,16 @@
-import { Post } from "./components/Post";
 import { Header } from "./components/Header";
+import { Post } from "./components/Post";
 import { Sidebar } from "./components/Sidebar";
+
+import type { PostType } from "./components/Post";
+
+import imgProfileWoman from "./assets/profile-img/mulhermorenaprofile.png";
 
 import styles from "./App.module.css";
 
 import "./global.css";
 
-// author: { avatar_url: "", namme: "", role: ""}
-// publishedAt: Date
-// content: string
-
-const posts = [
+const posts: PostType[] = [
   {
     id: 1,
     author: {
@@ -32,8 +32,8 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: "https://github.com/janedoe.png",
-      name: "Carol Vianez",
+      avatarUrl: imgProfileWoman,
+      name: "Carol Nakamura Yohama",
       role: "UI/UX Designer",
     },
     content: [
@@ -60,14 +60,7 @@ export function App() {
         </aside>
         <main>
           {posts.map((post) => {
-            return (
-              <Post
-                key={post.id}
-                author={post.author}
-                content={post.content}
-                publishedAt={post.publishedAt}
-              />
-            );
+            return <Post key={post.id} post={post} />;
           })}
         </main>
       </div>
