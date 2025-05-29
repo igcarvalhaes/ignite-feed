@@ -70,6 +70,8 @@ ignite-feed/
 └── vite.config.ts
 ```
 
+<hr>
+
 ## License
 
 Distributed under the MIT License.
@@ -87,10 +89,6 @@ Distributed under the MIT License.
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Licença](#licença)
 
-## Demo
-
-![Prévia do IgniteFeed](./public/preview.png)
-
 ## Funcionalidades
 
 - Exibir uma lista de posts com informações do autor e data de publicação.
@@ -106,24 +104,3 @@ Distributed under the MIT License.
 - **CSS Modules**
 - **date-fns** para formatação de datas
 - **Phosphor Icons** para ícones da interface
-
-## Começando
-
-Clone o repositório:
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/<username>/ignite-feed.git
-   ```
-
-2. **Install dependencies**
-   ```bash
-   cd ignite-feed
-   npm install
-   ```
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-4. **Open your browser**
