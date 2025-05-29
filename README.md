@@ -73,3 +73,57 @@ ignite-feed/
 ## License
 
 Distributed under the MIT License.
+
+# IgniteFeed
+
+> Uma aplicação de feed desenvolvida durante o módulo de Fundamentos do Ignite ReactJS da Rocketseat. Neste projeto, você aprenderá e aplicará conceitos essenciais do React, como componentização, props, gerenciamento de estado, imutabilidade e hooks, tudo com suporte ao TypeScript.
+
+## Índice
+
+- [Demo](#demo)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Começando](#começando)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Licença](#licença)
+
+## Demo
+
+![Prévia do IgniteFeed](./public/preview.png)
+
+## Funcionalidades
+
+- Exibir uma lista de posts com informações do autor e data de publicação.
+- Adicionar e excluir comentários nos posts.
+- Formatar datas (relativa e absoluta) usando **date-fns**.
+- Design responsivo para desktop e mobile.
+
+## Tecnologias Utilizadas
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **CSS Modules**
+- **date-fns** para formatação de datas
+- **Phosphor Icons** para ícones da interface
+
+## Começando
+
+Clone o repositório:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/<username>/ignite-feed.git
+   ```
+
+2. **Install dependencies**
+   ```bash
+   cd ignite-feed
+   npm install
+   ```
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+4. **Open your browser**
